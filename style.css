@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: solid 2px black;
+    border-radius: 50px;
+}
+
+.box-blue{
+    background-color: blue;
+}
+
+.p-box{
+    color: green;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.carrito{
+    border: 1px solid black;
+    width: 900px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.system{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.producto{
+    border: 1px solid green;
+    width: 70%;
+}
+
+.lista{
+    border: 1px solid red;
+    width: 30%;
+}
+
+tr p{
+    text-align: start;
+    width: 100px;
+}
+
+th{
+    width: 400px;
+    display: flex;
+    align-items:start;
+    justify-content: space-between;
+}
+
+input{
+    width: 40px;
+    text-align: center;
+}
+
+.subir-bajar{
+    margin: 0 5px;
+}
+
+.compra{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.habilitar{
+    display: flex;
+}
+
+.compras{
+    width: 30%;
+    height: 800px;
+    background-color: white;
+    position: relative;
+}
+
+.cerrar{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+ul{
+    list-style: none;
+}

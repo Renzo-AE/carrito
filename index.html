@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="compra" id="ventanaCompra">
+        <div class="compras" id="Producto">
+            <button class="cerrar" id="cerrar">X</button>
+            <img src="https://media.justo.mx/products/VERDURAS-Papa-1.jpg" alt="" width="300">
+            <div class="container-agregar">
+                <p>producto : <span></span></p>
+                <p>precio: <span></span></p>
+                <p>cantidad: <button class="menos" id="menos">-</button><input type="text" id="cantidad"><button class="mas" id="mas">+</button> Kg</p>
+                <br><br><br>
+                <button class="agregarCarrito" id="agregarCarrito">Añadir</button>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="box" id="box">
+            <p class="p-box">Hola Mundo...</p>
+        </div>
+        <button id="btn-cambiar">Cambiar Color</button>
+    </div>
+
+    <br><br><br><br>
+
+    <h1>Calculadora</h1>
+
+    <input type="text" id="date-1">
+    <br> <br>
+    <input type="text" id="date-2">
+    <br> <br>
+    <button id="operador" value="suma" name="">+</button>
+    <button id="operador" value="resta">-</button>
+    <button id="operador" value="multiplicar">x</button>
+    <button id="operador" value="dividir">÷</button>
+    <div>
+        <p id="response">Ressultado</p>
+    </div>
+    
+    <br><br><br>
+
+    <div class="carrito">
+        <h1>Carrito de Compra</h1>
+        <div class="system">
+            <div class="producto">
+                <h2>Productos</h2>
+                <br>
+                <table>
+                    <tbody id="table-productos">
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="lista">
+                    <ul>
+                        
+                    </ul>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <script type="module" src="./index.js"></script>
+    <script type="module" src="./carritos.js"></script>
+</body>
+</html>
