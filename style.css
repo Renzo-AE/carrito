@@ -43,18 +43,25 @@
 .lista{
     border: 1px solid red;
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-tr p{
+#table-productos{
+width: 400px;
+}
+
+#table-productos p{
     text-align: start;
     width: 100px;
 }
 
-th{
-    width: 400px;
+.row{
     display: flex;
-    align-items:start;
+    align-items:center  ;
     justify-content: space-between;
+    margin-bottom: 5px;
 }
 
 input{
@@ -93,6 +100,35 @@ input{
     top: 10px;
 }
 
-ul{
-    list-style: none;
+#carrito{
+    padding: 0 15px;
 }
+
+.nombre{
+    width: 90px;
+    text-align: center;
+}
+
+.precio{
+    width: 50px;
+}
+
+svg{
+    cursor: pointer;
+}
+
+.campo-carrito{
+    height: 100%;
+}
+
+#total-pagar{
+    text-align: center;
+    font-size: 25px;
+    border-top: solid 1px;
+    padding: 4px;
+}
+
+#total-pagar span{
+    margin-left: 45px;
+}
+

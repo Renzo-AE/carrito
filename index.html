@@ -12,12 +12,15 @@
     <div class="compra" id="ventanaCompra">
         <div class="compras" id="Producto">
             <button class="cerrar" id="cerrar">X</button>
-            <img src="https://media.justo.mx/products/VERDURAS-Papa-1.jpg" alt="" width="300">
+            <div id="img">
+
+            </div>
             <div class="container-agregar">
-                <p>producto : <span></span></p>
-                <p>precio: <span></span></p>
+                <p>producto : <span id="name"></span></p>
+                <p>precio: <span id="precio"></span></p>
                 <p>cantidad: <button class="menos" id="menos">-</button><input type="text" id="cantidad"><button class="mas" id="mas">+</button> Kg</p>
                 <br><br><br>
+                <div id="identificador" hidden></div>
                 <button class="agregarCarrito" id="agregarCarrito">Añadir</button>
             </div>
         </div>
@@ -54,16 +57,20 @@
             <div class="producto">
                 <h2>Productos</h2>
                 <br>
-                <table>
-                    <tbody id="table-productos">
+                <div id="table-productos">
 
-                    </tbody>
-                </table>
+                </div>
             </div>
             <div class="lista">
-                    <ul>
-                        
-                    </ul>
+                    <div class="campo-carrito">
+                        <h1 style="text-align: center;">Carrito</h1>
+                        <div id="carrito">
+                           <p>No hay productos</p>
+                        </div>
+                    </div>
+                    <div id="total-pagar">
+                        <p>Total : <span id="monto">20</span></p>
+                    </div>
             </div>
         </div>
     </div>
